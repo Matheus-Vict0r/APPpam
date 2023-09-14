@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txttextoinicio"
+        android:layout_width="243dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="163dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Navegue pelas nóticias, clique para começar!"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/btninicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtinicio" />
+
+    <TextView
+        android:id="@+id/txtinicio"
+        android:layout_width="286dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="327dp"
+        android:layout_marginEnd="120dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Comece sua Aventura!"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/txttextoinicio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btninicio"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="49dp"
+        android:backgroundTint="@android:color/system_accent2_800"
+        android:fontFamily="sans-serif-black"
+        android:text="Começar!"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttextoinicio" />
+</androidx.constraintlayout.widget.ConstraintLayout>

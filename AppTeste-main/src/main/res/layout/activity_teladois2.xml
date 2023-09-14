@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E54A5"
+    tools:context=".teladois">
+
+    <ImageView
+        android:id="@+id/imgtopoteladois"
+        android:layout_width="411dp"
+        android:layout_height="292dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtteladois"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img2" />
+
+    <TextView
+        android:id="@+id/txttitulotela2"
+        android:layout_width="254dp"
+        android:layout_height="49dp"
+        android:fontFamily="sans-serif-black"
+        android:text="O que são?"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/txtteladois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="67dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Mudanças Climáticas"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgtopoteladois" />
+
+    <TextView
+        android:id="@+id/txttextoteladois"
+        android:layout_width="407dp"
+        android:layout_height="284dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="As mudanças climáticas são transformações nos padrões da temperatura e do clima. As mudanças podem ser naturais ou por atividades humanas. Ao longo dos anos, as atividades humanas foram a principal fonte que impulsionou essas transformações na composição da atmosfera. O aumento na quantidade de gases na atmosfera é maior que o ideal, influenciando diretamente o aumento do aquecimento global."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnteladois"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulotela2"
+        app:layout_constraintVertical_bias="0.34" />
+
+    <Button
+        android:id="@+id/btnteladois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="Proxímo"
+        android:textColor="#2E54A5"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="655dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

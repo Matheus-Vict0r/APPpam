@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E54A5"
+    tools:context=".telaquatro">
+
+    <TextView
+        android:id="@+id/txttitulotelaquatro"
+        android:layout_width="279dp"
+        android:layout_height="67dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Consequências "
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/txttextotelaquatro"
+        android:layout_width="410dp"
+        android:layout_height="236dp"
+        android:fontFamily="sans-serif-black"
+        android:text="As mudanças climáticas trazem com si consequências que afetam diretamente o ambiente, isso inclui, secas intensas, escassez de água, incêndios severos, aumento do nível do mar, derretimento do gelo polar, tempestades catastróficas e declínio da biodiversidade. Vale citar o aumento do aquecimento global através das mudanças na composição da atmosfera."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <TextView
+        android:id="@+id/txttelequatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Mudanças Climáticas"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <Button
+        android:id="@+id/btntelaquatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:text="Proxímo"
+        android:textColor="#2E54A5"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/imgtopotelaquatro"
+        android:layout_width="489dp"
+        android:layout_height="335dp"
+        app:srcCompat="@drawable/img2"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="3dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
